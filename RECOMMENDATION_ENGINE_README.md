@@ -31,7 +31,7 @@ Main recommendation engine with three Gemini API wrappers:
 - **Output**: Wellness tips, activities, reasoning
 
 **API Used**: Google Gemini Pro API
-**API Key**: Configured in the class (AIzaSyCC5SCVEfG62IX5jK00t3hGTP4Z0QIynQg)
+**API Key**: Loaded from the project-root `.env` file (`GEMINI_API_KEY`) and exposed to the app via `BuildConfig.GEMINI_API_KEY` (see `app/build.gradle.kts`).
 
 ---
 
